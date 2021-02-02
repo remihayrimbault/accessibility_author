@@ -1,0 +1,10 @@
+$main: lightgreen;
+$secondary: darkred;
+
+body {
+    background-color: $main;
+
+    div {
+        color: $secondary;
+    }
+}
