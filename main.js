@@ -16,6 +16,10 @@ $('.arr-r').click(function() {
             transform : 'translateX(0px)',
             transition : '2s ease-in-out',
         });
+        $('.creations').css({
+            transform : 'translateX(1300px)',
+            transition : '2s ease-in-out',
+        });
         $('.arr-r > p').text("Créations");
         $('h2').text("Romans");
         $('h2').transition(5000);
@@ -32,6 +36,10 @@ $('.arr-r').click(function() {
         });
         $('.romans').css({
             transform : 'translateX(-1400px)',
+            transition : '2s ease-in-out',
+        });
+        $('.creations').css({
+            transform : 'translateX(0px)',
             transition : '2s ease-in-out',
         });
         $('.arr-l > p').text("Romans");
@@ -56,6 +64,10 @@ $('.arr-l').click(function() {
             transform : 'translateX(0px)',
             transition : '2s ease-in-out',
         });
+        $('.creations').css({
+            transform : 'translateX(1300px)',
+            transition : '2s ease-in-out',
+        });
         $('.arr-l > p').text("Accueil");
         $('.arr-r > p').text("Créations");
         $('h2').text("Romans");
@@ -73,6 +85,10 @@ $('.arr-l').click(function() {
         });
         $('.romans').css({
             transform : 'translateX(1400px)',
+            transition : '2s ease-in-out',
+        });
+        $('.creations').css({
+            transform : 'translateX(2600px)',
             transition : '2s ease-in-out',
         });
         $('.arr-r > p').text("Romans");
