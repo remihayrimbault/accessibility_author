@@ -145,6 +145,7 @@ h3{
 
 .creations img{
     width: 100%;
+    cursor: zoom-in;
 }
 
 .image_player{
